@@ -1,0 +1,11 @@
+scssSrc: src/scss/
+jsSrc: src/js/
+imgSrc: src/img/
+htmlSrc: src/html/
+fontSrc: src/fonts/
+
+cssDist: dist/css/
+jsDist: dist/js/
+imgDist: dist/img/
+htmlDist: dist/
+fontDist: dist/fonts/

@@ -1,0 +1,27 @@
+{
+  "name": "udacity-fsnd-project2",
+  "version": "1.0.0",
+  "description": "Portfolio of websites created by Jeff Waltz for completion of Udacity's Full Stack Web Development Nanodegree",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jeff Waltz, Jr.",
+  "license": "ISC",
+  "keywords": ["udacity", "fsnd", "full stack","nanodegree", "web design", "web development", "portfolio", "resonsive", "grunt"],
+  "devDependencies": {
+    "grunt": "^1.0.1",
+    "grunt-contrib-concat": "^1.0.1",
+    "grunt-contrib-copy": "^1.0.0",
+    "grunt-contrib-csslint": "^2.0.0",
+    "grunt-contrib-cssmin": "^1.0.2",
+    "grunt-contrib-imagemin": "^1.0.1",
+    "grunt-contrib-jshint": "^1.0.0",
+    "grunt-contrib-uglify": "^2.0.0",
+    "grunt-contrib-watch": "^1.0.0",
+    "grunt-sass": "^1.2.1",
+    "grunt-sass-lint": "^0.2.0",
+    "load-grunt-tasks": "^3.5.2",
+    "bootstrap": "^3.3.7"
+  }
+}

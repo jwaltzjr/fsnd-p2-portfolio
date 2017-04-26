@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Work+Sans:800');
+
+.container {
+  font-family: 'Open Sans', sans-serif;
+}
+
+.text-shadow-light {
+  @include text-shadow(.75px, 1.2px);
+}
+
+.text-shadow-dark {
+  @include text-shadow(1.5px, 2.4px);
+}
+
+.banner-text {
+  color: $white;
+  font-family: 'Work Sans', sans-serif;
+  font-size: 8vw;
+  font-weight: bold;
+}
+
+@media screen and (min-width: 1250px) {
+
+  .banner-text {
+    font-size: 100px;
+  }
+
+}
+
+header {
+
+  h1 {
+    font-size: 2.3em;
+  }
+
+  h3 {
+    font-size: 1em;
+  }
+
+}
+
+@media screen and (max-width: 380px) {
+
+  // Bring the subheader to a new line.
+  .subheader {
+    display: block;
+  }
+
+}
+
+@media screen and (max-width: 320px) {
+
+  header {
+
+    h1 {
+      font-size: 27px;
+      font-size: 9vw;
+    }
+
+    h3 {
+      font-size: 15px;
+      font-size: 5vw;
+    }
+
+  }
+
+}
+
+@media screen and (max-width: 231px) {
+
+  header {
+
+    h1 {
+      font-size: 24px;
+      font-size: 8vw;
+    }
+
+  }
+
+}
