@@ -8,6 +8,10 @@
   },
   "author": "Jeff Waltz, Jr.",
   "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/jwaltzjr/fsnd-p2-portfolio.git"
+  },
   "keywords": ["udacity", "fsnd", "full stack","nanodegree", "web design", "web development", "portfolio", "resonsive", "grunt"],
   "devDependencies": {
     "grunt": "^1.0.1",
@@ -21,7 +25,6 @@
     "grunt-contrib-watch": "^1.0.0",
     "grunt-sass": "^1.2.1",
     "grunt-sass-lint": "^0.2.0",
-    "load-grunt-tasks": "^3.5.2",
-    "bootstrap": "^3.3.7"
+    "load-grunt-tasks": "^3.5.2"
   }
 }
